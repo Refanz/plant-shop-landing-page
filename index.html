@@ -1,12 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lantern - Plant Shop</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    
-</body>
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="flex flex-col items-center p-5">
+      <!-- Navbar -->
+      <nav class="flex justify-between items-center sm:w-full max-w-7xl">
+        <div class="nav-icon">
+          <img
+            class="min-w-48 max-h-16 object-cover"
+            src="assets/ic-plant-shop.png"
+            alt="ic-plant-shop"
+          />
+        </div>
+        <div class="nav-link">
+          <ul class="flex gap-7">
+            <li>Home</li>
+            <li>Collection</li>
+            <li>Shop</li>
+            <li>Plant Care</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="nav-action">
+          <div class="flex gap-2">
+            <i class="bx bx-search"></i>
+            <i class="bx bx-cart"></i>
+            <i class="bx bx-user"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Hero -->
+      <div class="sm:w-full max-w-7xl flex justify-between mt-24">
+        <div class="section-1">
+          <div class="flex flex-col gap-7 text-green-900">
+            <p>Preserve and safeguard our precious planet</p>
+            <div class="flex flex-col gap-3 text-5xl font-bold">
+              <p>Plant your tree</p>
+              <p>seedling anywhere</p>
+              <p>across the globe</p>
+            </div>
+            <p class="border-b-2"></p>
+            <a
+              href=""
+              class="flex items-center border rounded-full w-fit py-1 pl-2 pr-7 bg-green-900 text-white font-semibold gap-2"
+            >
+              <i class="bx bxs-right-top-arrow-circle text-5xl"></i>
+              Get started
+            </a>
+          </div>
+          <!-- Plant Show -->
+          <div class="plant-show mt-16 flex gap-5">
+            <!-- Plant Card 1 -->
+            <div
+              class="plant-card-1 bg-green-900 max-h-40 max-w-80 flex justify-between p-5 rounded-3xl"
+            >
+              <img
+                class="object-contain w-1/2 scale-[2.0] -translate-y-1/4"
+                src="assets/plant-1.png"
+                alt="plant-1"
+              />
+              <div class="flex flex-col justify-center text-white gap-2">
+                <p>Monstera</p>
+                <p>Rp. 15.000</p>
+                <a
+                  class="bg-white text-green-900 rounded-full px-5 text-xs py-2"
+                >
+                  Shop Now
+                </a>
+              </div>
+            </div>
+            <!-- Plant Card 1 -->
+            <!-- Plant Card 2 -->
+            <div
+              class="plant-card-2 bg-green-900 max-h-40 max-w-80 flex justify-between p-5 rounded-3xl"
+            >
+              <img
+                class="object-contain w-1/2 scale-[2.0] -translate-y-1/4"
+                src="assets/plant-2.png"
+                alt="plant-1"
+              />
+              <div class="flex flex-col justify-center text-white gap-2">
+                <p>Monstera</p>
+                <p>Rp. 15.000</p>
+                <a
+                  class="bg-white text-green-900 rounded-full px-5 text-xs py-2"
+                >
+                  Shop Now
+                </a>
+              </div>
+            </div>
+            <!-- Plant Card 2 -->
+          </div>
+          <!-- Plant Show -->
+        </div>
+        <!-- Section 2 -->
+        <div class="section-2">
+          <img
+            class="max-w-xl scale-[1.2] translate-y-5"
+            src="assets/monstera-deliciosa-plant-pot.png"
+            alt="monstera-plant-in-pot"
+          />
+        </div>
+        <!-- Section 2 -->
+      </div>
+      <!-- Hero -->
+    </header>
+    <!-- Header -->
+
+    <!-- Main -->
+    <main class="flex flex-col items-center p-5 bg-green-900">
+      <div class="services sm:w-full flex max-w-7xl justify-between">
+        <div class="service-1 flex justify-between">
+          <i class="bx bx-car"></i>
+          <div class="service-desc">
+            <p>Gratis Ongkir</p>
+            <p>Nikmati pengiriman tanpa biaya</p>
+          </div>
+        </div>
+        <div class="service-2 flex">
+          <i class="bx bx-car"></i>
+          <div class="service-desc">
+            <p>Gratis Ongkir</p>
+            <p>Nikmati pengiriman tanpa biaya</p>
+          </div>
+        </div>
+        <div class="service-3 flex">
+          <i class="bx bx-car"></i>
+          <div class="service-desc">
+            <p>Gratis Ongkir</p>
+            <p>Nikmati pengiriman tanpa biaya</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main -->
+
+    <footer></footer>
+  </body>
 </html>
