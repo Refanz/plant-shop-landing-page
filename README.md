@@ -1,1 +1,1 @@
-### Slicing UI Plant Shop Landing Page
+# Slicing UI Plant Shop Landing Page
